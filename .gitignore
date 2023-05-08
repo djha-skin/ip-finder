@@ -1,0 +1,19 @@
+# Lisp build files
+
+*.abcl
+*.fasl
+*.dx32fsl
+*.dx64fsl
+*.lx32fsl
+*.lx64fsl
+*.x86f
+
+# Editor save filees
+
+*~
+.#*
+.*.sw[a-z]
+
+# Qlot files
+/.qlot/
+/.bundle-libs/
