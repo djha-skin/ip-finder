@@ -20,5 +20,5 @@
               (http-get #'dexador:get)
               (url "https://icanhazip.com"))
     "Get my IP address."
-    (let ((ip (string-trim "\n\t " (funcall http-get url))))
+    (let ((ip (string-trim #(#\Return #\Newline #\Tab #\Space) (funcall http-get url))))
       (format out-stream "ip: ~A" (cl-yaml:emit-to-string ip))))

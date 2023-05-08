@@ -1,4 +1,4 @@
-# Lisp build files
+# Lisp build (and dependency) files
 
 *.abcl
 *.fasl
@@ -8,6 +8,9 @@
 *.lx64fsl
 *.x86f
 
+*.exe
+*.dll
+*.so
 # Editor save filees
 
 *~
